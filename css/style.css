@@ -28,17 +28,38 @@ img {
 .header {
     background-color: rgb(255, 255, 255);
     padding: 10px;
-
-    
     border: 1px solid black;
     height: 50px;
+	
+}
+.header a{
+	color: black;
+	text-decoration: none; 
+}
+
+.btn{
+	background-color: rgb(9, 104, 219);
+	color: white;
+	padding: 8px;
+	text-decoration: none; 
+	
 }
 
 .row-header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: center;
     align-items: center;
+}
+.left{
+	display: flex;
+	padding: center;
+	gap: 1em;	
+}
+.right {
+	display: flex;
+	padding: center;
+	gap: 2em;
 }
 
 
@@ -47,11 +68,12 @@ img {
 
 /* PRIMA SEZIONE  */
  .prima-sezione {
-    background-color: rgb(180 208 230);
+    background-color:rgb(180 208 230);
+	
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0;
+   
  }
 
  .row1 {
@@ -59,38 +81,46 @@ img {
     justify-content: space-around;
  }
 
+
  .col-40 {
     display: flex;
     width: 40%;
     margin: 20px auto;
   
     height: 200px;
-    background-color: green;
-    border: 1px solid black;
+    background-color: none;
+    
 }
-
+h1{
+	font-size:60px;
+}
 .col-60 {
     display: flex;
     width: 60%;
     margin: 20px auto;
-   
-    height: 200px;
-    background-color: aqua;
-    border: 1px solid black;
- }
 
+ }
+.col-60 img {
+	width: 100%;
+
+}
 
 
 /* SECONDA SEZIONE  */
+
 .seconda-sezione {
     padding: 20px 0;
 }
 
+.cerchio {
+    padding-right: 20px;
+}
+
 .sottosezione1 {
-    border: 1px solid gray;
+
     margin-bottom: 20px;
- 
-    background-color: rgb(255, 64, 64);
+    /* DEBUG  */
+    background-color:none;
     height: 100px;
 }
 
@@ -99,12 +129,39 @@ img {
 }
 
 .team {
-    border: 1px solid black;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
+.col-70 {
+    width: 70%;
+}
 
-.enterprise {
-    border: 1px solid black;
+.col-30 {
+    width: 30%;
+   
+}
+
+.row-entreprise {
+    display: flex;
+    border: 1px solid rgb(128, 128, 128);
+    align-items: center;
+}
+
+/* .enterprise {
+   border: 1px solid grey;
+} */
+
+.title-entreprise {
+    padding: 20px 0 10px 10px;
+}
+
+.p-entreprise {
+    color: var(--grey-color);
+    padding: 30px 0 10px 10px;
 }
 
 .row2 {
@@ -116,10 +173,60 @@ img {
 .col2 {
    width: calc(100% / 3);
    border: 1px solid grey;
-   display: flex;
-  
-   background-color: pink;
-   min-height: 350px;
+   /* display: flex; */
+   gap: 5px;
+   }
+
+   .titolo {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid rgb(128, 128, 128);
+   }
+
+   .sottotitoli {
+    padding: 20px 0 15px 10px;
+   }
+
+   h3 {
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 15px;
+   }
+
+   .span2 {
+    padding: 15px 0 10px 10px;
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+   }
+
+   .lista1 {
+    list-style: none;
+    color: var(--grey-color);
+    margin: 30px 0 30px 10px;
+   }
+
+   .icona-colorata {
+    color: var(--sky-color);
+   }
+   
+   .main li {
+    margin-top: 15px;
+   }
+
+   .padding {
+    padding-left: 10px;
+   }
+
+   .oppure {
+    margin-top: 20px;
+   }
+
+   .hr-main {
+    width: 10%;
+    padding-left: 10px;
+    margin: 20px 0px 20px 10px;
    }
 
 
