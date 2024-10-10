@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container1 {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+   
+}
+
+.container2 {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    border: 1 px solid black;
+}
+
+/* HEADER  */
+.header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+    
+    border: 1px solid black;
+    height: 50px;
+}
+
+.row-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+
+
+/* PRIMA SEZIONE  */
+ .prima-sezione {
+    background-color: rgb(180 208 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+ }
+
+ .row1 {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .col-40 {
+    display: flex;
+    width: 40%;
+    margin: 20px auto;
+  
+    height: 200px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.col-60 {
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+   
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+ }
+
+
+
+/* SECONDA SEZIONE  */
+.seconda-sezione {
+    padding: 20px 0;
+}
+
+.sottosezione1 {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+ 
+    background-color: rgb(255, 64, 64);
+    height: 100px;
+}
+
+.sottosezione2 {
+  margin-top: 20px;
+}
+
+.team {
+    border: 1px solid black;
+}
+
+
+.enterprise {
+    border: 1px solid black;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.col2 {
+   width: calc(100% / 3);
+   border: 1px solid grey;
+   display: flex;
+  
+   background-color: pink;
+   min-height: 350px;
+   }
+
+
+   /* TERZA SEZIONE  */
+   
+
+   .row3 {
+    display: flex;
+    justify-content: space-between;
+   
+   }
+
+
+   /* QUARTA SEZIONE  */
+   .row4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+  .col4 {
+    width: calc(95% / 3);
+    background-color: rgb(169, 169, 40);
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+.ultimo-main {
+    border: 1px solid black;
+    background-color: blueviolet;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+/* FOOTER   */
+.footer {
+    background-color: black;
+    margin-top: 10px;
+ 
+    height: 300px;
+
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.col-20 {
+    border: 1px solid white;
+   
+    background-color: grey;
+}
+
+.paragrafo-footer {
+    color: white;
+}
